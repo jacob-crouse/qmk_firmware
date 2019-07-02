@@ -34,6 +34,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Planck PCB default pin-out */
 #define MATRIX_ROW_PINS { D0, D5, B5, B6 }
 #define MATRIX_COL_PINS { F1, F0, B0, C7, F4, F5, F6, F7, D4, D6, B4, D7 }
+
+// WHITE HOMEMADE PLANCK PINS
+/*#define MATRIX_ROW_PINS { B3, B7, D0, D1 }
+#define MATRIX_COL_PINS { B0, B1, F0, F1, F4, F5, F6, F7, B6, B5, B4, D7 }*/
+
 #define UNUSED_PINS
 
 #define QMK_ESC_OUTPUT F1

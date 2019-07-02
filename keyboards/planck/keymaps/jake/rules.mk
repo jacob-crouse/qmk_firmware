@@ -1,0 +1,5 @@
+SRC += muse.c
+MOUSEKEY_ENABLE = no
+EXTRAKEY_ENABLE = no
+BACKLIGHT_ENABLE = no
+BOOTLOADER = atmel-dfu
