@@ -31,8 +31,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [COMMAND] = LAYOUT_numpad_5x4( /* Base */
     KC_NLCK,  KC_NO,    KC_NO,   KC_NO,
     KC_TAB,   KC_UP,    KC_DEL,  KC_BSPC,
-    KC_LEFT,  KC_DOWN,  KC_RGHT,
-    KC_NO,  KC_NO,  KC_NO,
+    KC_LEFT,  KC_NO,  KC_RGHT,
+    KC_NO,  KC_DOWN,  KC_NO,
     _______,    KC_NO,         KC_NO
   ),
 };
